@@ -8,3 +8,4 @@ VOLUME_EFFETS = 90
 DIFFICULTE = normale
 PLEIN_ECRAN = non
 LANGUE = fr
+FPS = 60
