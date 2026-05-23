@@ -1,0 +1,10 @@
+# Configuration de PixelQuest
+# Modifier ces valeurs pour ajuster le jeu
+
+RESOLUTION_LARGEUR = 800
+RESOLUTION_HAUTEUR = 600
+VOLUME_MUSIQUE = 70
+VOLUME_EFFETS = 90
+DIFFICULTE = normale
+PLEIN_ECRAN = non
+LANGUE = fr
