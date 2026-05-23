@@ -1,5 +1,5 @@
 # PixelQuest - Point d'entrée du jeu
-# Auteur : lucas-dev42
+# Auteur : ME :)
 
 def main():
     print("Lancement de PixelQuest...")
