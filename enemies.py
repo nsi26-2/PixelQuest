@@ -10,10 +10,10 @@ class Enemy:
         self.position_y = 100
 
     def attaquer(self, joueur):
-        # Inflige des dégâts au joueur
         joueur.vie = joueur.vie - self.degats
         print(f"{self.type_ennemi} attaque ! -{self.degats} PV")
 
-    def spawner(niveau):
-        # Fait apparaître un ennemi selon le niveau
-        print(f"Ennemi apparu au niveau {niveau}")
+    # Correction bug-slayer99 : manquait le "self" en paramètre, 
+    # les ennemis ne spawnaient plus à partir du niveau 3
+    def spawner(self, niveau):
+        print(f"Ennemi '{self.type_ennemi}' apparu au niveau {niveau}")
