@@ -30,3 +30,9 @@ class Player:
         print(f"Score : {self.score}")
         print(f"Niveau : {self.niveau}")
         print(f"Position : ({self.position_x}, {self.position_y})")
+
+    def est_en_collision(self, ennemi):
+        # fix: la détection de collision était inversée
+        distance_x = abs(self.position_x - ennemi.position_x)
+        distance_y = abs(self.position_y - ennemi.position_y)
+        return distance_x < 32 and distance_y < 32
