@@ -1,0 +1,30 @@
+Mission 1 — C'est quoi ce projet ?
+📄 Lis le README.md. En une phrase, décris PixelQuest.
+Mission 2 — Combien de sauvegardes ?
+🕒 Va dans l'onglet Commits. Combien y en a-t-il au total ?
+Mission 3 — Le premier jour
+📅 Quel est le tout premier commit ? Quelle date ? Quel message ?
+Mission 4 — Qui a le plus bossé ?
+👥 Va dans Insights → Contributors. Qui a fait le plus de commits ?
+Mission 5 — Rouge et vert, c'est quoi ?
+🔴🟢 Clique sur n'importe quel commit. Tu vois des lignes rouges et vertes — qu'est-ce qu'elles signifient selon toi ?
+Mission 6 — Les fichiers du projet
+📁 Combien y a-t-il de fichiers ? Lequel te semble le plus important, et pourquoi ?
+Mission 7 — Le débuggeur
+🐛 Trouve tous les commits qui commencent par fix:. Qui les a tous faits ? Quel bug t'a semblé le plus grave ?
+Mission 8 — Remonter le temps
+⏪ Clique sur le tout premier commit. Combien de fichiers existaient à ce moment-là ?
+Mission 9 — Les branches
+🌿 Va dans Branches. Combien y en a-t-il ? D'après leurs noms, à quoi servent-elles ?
+Mission 10 — L'enquête
+🔍 Quelqu'un a fait un commit avec un message d'un seul mot, complètement inutile. Qui est le coupable ? Quel est ce message ?
+Mission 11 — Le développeur fantôme
+👻 Qui a contribué au projet mais avec le moins de commits ? Sur quel(s) fichier(s) a-t-il travaillé ?
+Mission 12 — Lire du code
+🐍 Ouvre player.py. Sans connaître Python, essaie de deviner : qu'est-ce que ce fichier gère dans le jeu ?
+Mission 13 — L'aveu d'échec
+😅 Trouve le commit où le développeur admet qu'il avait oublié quelque chose de bête. Quel était son oubli ?
+Mission 14 — La branche mystère
+🌿 Il existe une branche appelée feature/boss-final. Va dessus. Qu'est-ce qui a été commencé ? Est-ce que c'est terminé selon toi ?
+Mission 15 — Bonus 🏆
+💡 D'après tout ce que vous avez vu, inventez une Mission 16 que vous poseriez à un autre groupe. Rajoutez la en faisant un commit !
