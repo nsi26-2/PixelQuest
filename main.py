@@ -22,7 +22,7 @@ def charger_niveau(numero):
 
 def boucle_jeu(joueur, ennemis):
     print(f"\n=== Niveau en cours ===")
-    print(f"DEBUG: {len(ennemis)} ennemis chargés")
+    # Ligne supprimée : print(f"DEBUG: {len(ennemis)} ennemis chargés")
     for ennemi in ennemis:
         ennemi.attaquer(joueur)
     joueur.afficher_stats()
