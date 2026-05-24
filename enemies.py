@@ -13,7 +13,14 @@ class Enemy:
         joueur.vie = joueur.vie - self.degats
         print(f"{self.type_ennemi} attaque ! -{self.degats} PV")
 
-    # Correction bug-slayer99 : manquait le "self" en paramètre, 
-    # les ennemis ne spawnaient plus à partir du niveau 3
     def spawner(self, niveau):
         print(f"Ennemi '{self.type_ennemi}' apparu au niveau {niveau}")
+
+
+# TODO: implémenter le boss final
+# class BossFinale(Enemy):
+#     def __init__(self):
+#         super().__init__("Dragon Ancestral")
+#         self.vie = 500
+#         self.degats = 50
+#         # on verra ça plus tard...
